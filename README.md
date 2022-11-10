@@ -15,7 +15,7 @@ Parameters:
 ## Result:
   This simulation program will simulate zombie vs human until satisfy one of three conditions below.
   1. survival human population or zombie num has arrival dynamic balance more than 10 days.
-  2. human or zombie has been elimnated.
+  2. human or zombie has been eliminated.
   3. simulation running more than 1000 days in program epoch.
   
   Processing will return final human population, zombie nums and end days. 
