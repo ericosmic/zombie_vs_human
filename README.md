@@ -5,7 +5,7 @@ Simulate A battle between zombie and human
 ## Command:
 python virus-pro.py -ih <human-init-population> -iz <zombie-init-nums> -K <simulate-time> -ii <init_infection_rate>
   
-hype-parameters:
+hyper-parameters:
   
   ih: init_health  
   iz: init_zombie  
