@@ -2,7 +2,7 @@
 Simulate A battle between zombie and human
 
 # RUN Simulation:
-
+## command:
 python virus-pro.py -ih <human-init-population> -iz <zombie-init-nums> -K <simulate-time> -ii <init_infection_rate>
   
 Parameters:
