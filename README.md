@@ -13,9 +13,10 @@ Parameters:
   ii: init_infection_rate
 
 ## Result:
-  This simulation program will simulate zombie vs human until satisfy two condition.
-  1. survival human population or zombie num has arrival dynamic balance more than 3 days.
-  2. simulation running more than 1000 days in program epoch.
+  This simulation program will simulate zombie vs human until satisfy one of three conditions below.
+  1. survival human population or zombie num has arrival dynamic balance more than 10 days.
+  2. human or zombie has been elimnated.
+  3. simulation running more than 1000 days in program epoch.
   
   Processing will return final human population, zombie nums and end days. 
   Meanwhile program will product two csv file for recording data:
