@@ -18,6 +18,6 @@ Parameters:
   2. simulation processing running more than 1000 days.
   
   Processing will return final human population, zombie nums and end days. 
-  Meanwhile program will product two csv file for record data:
+  Meanwhile program will product two csv file for recording data:
   1. experiment_data.csv:  record final data (include days, human population, zombie nums)
   2. processing_data.csv:  record processing data of each 10 days.
