@@ -7,9 +7,9 @@ python virus-pro.py -ih <human-init-population> -iz <zombie-init-nums> -K <simul
   
 Parameters:
   
-  ih: init_health
-  iz: init_zombie
-  K: simulate_time
+  ih: init_health。
+  iz: init_zombie  
+  K: simulate_time  
   ii: init_infection_rate
 
 ## Result:
