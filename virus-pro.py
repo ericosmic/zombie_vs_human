@@ -359,10 +359,15 @@ if __name__ == "__main__":
 
     import json
     import csv
+    import pandas as pd
 
+    df = pd.DataFrame(experiment_data)
+    df.to_csv('experiment_data.csv', index=False)
+    '''
     csv_columns = ['days', 'health', 'zombie']
     with open('experiment_data.csv', 'w') as f:
         writer = csv.DictWriter(f, fieldnames=csv_columns)
         writer.writeheader()
         for e in experiment_data:
             writer.writerow(e)
+    '''
