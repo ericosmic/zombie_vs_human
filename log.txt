@@ -1,0 +1,422 @@
+[2022-11-10 02:46:00.422] [local ee] [info] loaded runtime library from/opt/conda/lib/python3.8/site-packages/tuplex/libexec/tuplex_runtime.cpython-38-x86_64-linux-gnu.so
+[2022-11-10 02:46:00.426] [local ee] [info] initializing LLVM backend
+[2022-11-10 02:46:00.427] [local ee] [warning] init JIT compiler also only in local mode
+[2022-11-10 02:46:00.442] [LLVM] [info] compiling code for k8-sse3
+[2022-11-10 02:46:00.473] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 02:46:00.473] [E/1] [info] provided cache path file:///tmp/tuplex-cache-tuplex/E1 does not exist. Attempting to create it.
+[2022-11-10 02:46:00.475] [E/1] [info] created cache directory file:///tmp/tuplex-cache-tuplex/E1
+[2022-11-10 02:46:00.481] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 02:46:00.482] [E/2] [info] provided cache path file:///tmp/tuplex-cache-tuplex/E2 does not exist. Attempting to create it.
+[2022-11-10 02:46:00.482] [E/2] [info] created cache directory file:///tmp/tuplex-cache-tuplex/E2
+[2022-11-10 02:46:00.488] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 02:46:00.489] [E/3] [info] provided cache path file:///tmp/tuplex-cache-tuplex/E3 does not exist. Attempting to create it.
+[2022-11-10 02:46:00.489] [E/3] [info] created cache directory file:///tmp/tuplex-cache-tuplex/E3
+[2022-11-10 02:46:00.505] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 02:46:00.505] [E/4] [info] provided cache path file:///tmp/tuplex-cache-tuplex/E4 does not exist. Attempting to create it.
+[2022-11-10 02:46:00.505] [E/4] [info] created cache directory file:///tmp/tuplex-cache-tuplex/E4
+[2022-11-10 02:46:00.507] [E/1] [info] starting detached process queue
+[2022-11-10 02:46:00.507] [local execution engine] [info] started local executor E/1 (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 02:46:00.508] [E/1] [info] initialized runtime memory (4.00 MB)
+[2022-11-10 02:46:00.510] [E/2] [info] starting detached process queue
+[2022-11-10 02:46:00.508] [local execution engine] [info] started local executor E/2 (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 02:46:00.510] [E/2] [info] initialized runtime memory (4.00 MB)
+[2022-11-10 02:46:00.511] [local execution engine] [info] started local executor E/3 (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 02:46:00.512] [E/3] [info] starting detached process queue
+[2022-11-10 02:46:00.512] [local execution engine] [info] started local executor E/4 (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 02:46:00.513] [E/4] [info] starting detached process queue
+[2022-11-10 02:46:00.515] [E/3] [info] initialized runtime memory (4.00 MB)
+[2022-11-10 02:46:00.522] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 02:46:00.523] [driver] [info] provided cache path file:///tmp/tuplex-cache-tuplex/driver does not exist. Attempting to create it.
+[2022-11-10 02:46:00.523] [driver] [info] created cache directory file:///tmp/tuplex-cache-tuplex/driver
+[2022-11-10 02:46:00.524] [local execution engine] [info] started driver (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 02:46:00.515] [E/4] [info] initialized runtime memory (4.00 MB)
+[2022-11-10 02:46:00.827] [python] [info] transferring 1 elements to tuplex
+[2022-11-10 02:46:00.828] [python] [info] inferring type!
+[2022-11-10 02:46:00.829] [python] [info] using slow transfer to backend
+[2022-11-10 02:46:00.856] [serializer] [error] invalid list type: [pyobject] encountered, can't serialize.
+[2022-11-10 02:46:00.856] [serializer] [error] invalid list type: [pyobject] encountered, can't serialize.
+[2022-11-10 02:46:00.873] [serializer] [error] invalid list type: [pyobject] encountered, can't serialize.
+[2022-11-10 02:46:00.874] [serializer] [error] invalid list type: [pyobject] encountered, can't serialize.
+[2022-11-10 02:46:00.874] [serializer] [error] invalid list type: [pyobject] encountered, can't serialize.
+[2022-11-10 02:46:00.875] [serializer] [error] invalid list type: [pyobject] encountered, can't serialize.
+[2022-11-10 02:46:00.878] [deserializer] [error] invalid list type: [pyobject] encountered, can't deserialize.
+[2022-11-10 02:46:00.879] [deserializer] [error] invalid list type: [pyobject] encountered, can't deserialize.
+[2022-11-10 02:46:00.880] [python] [info] inferred default type is ([pyobject],[pyobject],i64,i64)
+[2022-11-10 02:46:00.881] [python] [info] Data transfer to backend took 0.053626 seconds (materialized: 32.00 MB)
+[2022-11-10 02:46:02.839] [global] [warning] function requires module numpy as np for which Tuplex does not provide support yet. Will use fallback mode.
+[2022-11-10 02:46:02.840] [global] [warning] Module __main__ native support required to compile function. Tuplex does not support it yet, using fallback.
+[2022-11-10 02:46:02.841] [global] [warning] Module __main__ native support required to compile function. Tuplex does not support it yet, using fallback.
+[2022-11-10 02:46:02.858] [global] [warning] function requires module numpy as np for which Tuplex does not provide support yet. Will use fallback mode.
+[2022-11-10 02:46:02.858] [global] [warning] Module __main__ native support required to compile function. Tuplex does not support it yet, using fallback.
+[2022-11-10 02:46:02.858] [global] [warning] Module __main__ native support required to compile function. Tuplex does not support it yet, using fallback.
+[2022-11-10 02:46:02.865] [global] [warning] function requires module numpy as np for which Tuplex does not provide support yet. Will use fallback mode.
+[2022-11-10 02:46:02.866] [global] [warning] Module __main__ native support required to compile function. Tuplex does not support it yet, using fallback.
+[2022-11-10 02:46:02.866] [global] [warning] Module __main__ native support required to compile function. Tuplex does not support it yet, using fallback.
+[2022-11-10 02:46:02.867] [global] [error] Tracing via sample produced mostly exceptions, please increase sample size or alter UDF to not yield exceptions only.
+[2022-11-10 02:46:02.869] [global] [error] Could not infer schema for map operator.
+[2022-11-10 02:46:02.869] [global] [error] failed to create map operator
+[2022-11-10 02:46:02.902] [driver] [info] freed 1 partition (32.00 MB)
+[2022-11-10 02:46:02.904] [local execution engine] [info] Stopped local executor E/1
+[2022-11-10 02:46:02.907] [local execution engine] [info] Stopped local executor E/2
+[2022-11-10 02:46:02.910] [local execution engine] [info] Stopped local executor E/3
+[2022-11-10 02:46:02.913] [local execution engine] [info] Stopped local executor E/4
+[2022-11-10 02:52:48.964] [local ee] [info] loaded runtime library from/opt/conda/lib/python3.8/site-packages/tuplex/libexec/tuplex_runtime.cpython-38-x86_64-linux-gnu.so
+[2022-11-10 02:52:48.968] [local ee] [info] initializing LLVM backend
+[2022-11-10 02:52:48.969] [local ee] [warning] init JIT compiler also only in local mode
+[2022-11-10 02:52:48.986] [LLVM] [info] compiling code for k8-sse3
+[2022-11-10 02:52:49.015] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 02:52:49.023] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 02:52:49.029] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 02:52:49.035] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 02:52:49.037] [E/1] [info] starting detached process queue
+[2022-11-10 02:52:49.037] [local execution engine] [info] started local executor E/1 (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 02:52:49.038] [E/1] [info] initialized runtime memory (4.00 MB)
+[2022-11-10 02:52:49.038] [local execution engine] [info] started local executor E/2 (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 02:52:49.039] [E/2] [info] starting detached process queue
+[2022-11-10 02:52:49.039] [E/2] [info] initialized runtime memory (4.00 MB)
+[2022-11-10 02:52:49.040] [local execution engine] [info] started local executor E/3 (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 02:52:49.041] [E/3] [info] starting detached process queue
+[2022-11-10 02:52:49.042] [local execution engine] [info] started local executor E/4 (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 02:52:49.043] [E/4] [info] starting detached process queue
+[2022-11-10 02:52:49.043] [E/3] [info] initialized runtime memory (4.00 MB)
+[2022-11-10 02:52:49.044] [E/4] [info] initialized runtime memory (4.00 MB)
+[2022-11-10 02:52:49.052] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 02:52:49.053] [local execution engine] [info] started driver (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 02:52:49.244] [python] [info] transferring 1 elements to tuplex
+[2022-11-10 02:52:49.245] [python] [info] inferring type!
+[2022-11-10 02:52:49.247] [python] [info] using slow transfer to backend
+[2022-11-10 02:52:49.294] [serializer] [error] invalid list type: [pyobject] encountered, can't serialize.
+[2022-11-10 02:52:49.295] [serializer] [error] invalid list type: [pyobject] encountered, can't serialize.
+[2022-11-10 02:52:49.352] [serializer] [error] invalid list type: [pyobject] encountered, can't serialize.
+[2022-11-10 02:52:49.362] [serializer] [error] invalid list type: [pyobject] encountered, can't serialize.
+[2022-11-10 02:52:49.362] [serializer] [error] invalid list type: [pyobject] encountered, can't serialize.
+[2022-11-10 02:52:49.363] [serializer] [error] invalid list type: [pyobject] encountered, can't serialize.
+[2022-11-10 02:52:49.367] [deserializer] [error] invalid list type: [pyobject] encountered, can't deserialize.
+[2022-11-10 02:52:49.368] [deserializer] [error] invalid list type: [pyobject] encountered, can't deserialize.
+[2022-11-10 02:52:49.369] [python] [info] inferred default type is ([pyobject],[pyobject],i64,i64)
+[2022-11-10 02:52:49.370] [python] [info] Data transfer to backend took 0.126012 seconds (materialized: 32.00 MB)
+[2022-11-10 02:52:51.332] [global] [warning] function requires module numpy as np for which Tuplex does not provide support yet. Will use fallback mode.
+[2022-11-10 02:52:51.334] [global] [warning] Module __main__ native support required to compile function. Tuplex does not support it yet, using fallback.
+[2022-11-10 02:52:51.335] [global] [warning] Module __main__ native support required to compile function. Tuplex does not support it yet, using fallback.
+[2022-11-10 02:52:51.346] [global] [warning] function requires module numpy as np for which Tuplex does not provide support yet. Will use fallback mode.
+[2022-11-10 02:52:51.346] [global] [warning] Module __main__ native support required to compile function. Tuplex does not support it yet, using fallback.
+[2022-11-10 02:52:51.347] [global] [warning] Module __main__ native support required to compile function. Tuplex does not support it yet, using fallback.
+[2022-11-10 02:55:29.703] [local ee] [info] loaded runtime library from/opt/conda/lib/python3.8/site-packages/tuplex/libexec/tuplex_runtime.cpython-38-x86_64-linux-gnu.so
+[2022-11-10 02:55:29.707] [local ee] [info] initializing LLVM backend
+[2022-11-10 02:55:29.708] [local ee] [warning] init JIT compiler also only in local mode
+[2022-11-10 02:55:29.725] [LLVM] [info] compiling code for k8-sse3
+[2022-11-10 02:55:29.754] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 02:55:29.762] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 02:55:29.768] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 02:55:29.774] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 02:55:29.776] [local execution engine] [info] started local executor E/1 (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 02:55:29.776] [E/1] [info] starting detached process queue
+[2022-11-10 02:55:29.777] [local execution engine] [info] started local executor E/2 (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 02:55:29.777] [E/2] [info] starting detached process queue
+[2022-11-10 02:55:29.778] [E/2] [info] initialized runtime memory (4.00 MB)
+[2022-11-10 02:55:29.778] [E/1] [info] initialized runtime memory (4.00 MB)
+[2022-11-10 02:55:29.778] [local execution engine] [info] started local executor E/3 (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 02:55:29.779] [local execution engine] [info] started local executor E/4 (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 02:55:29.779] [E/3] [info] starting detached process queue
+[2022-11-10 02:55:29.780] [E/4] [info] starting detached process queue
+[2022-11-10 02:55:29.789] [E/3] [info] initialized runtime memory (4.00 MB)
+[2022-11-10 02:55:29.790] [E/4] [info] initialized runtime memory (4.00 MB)
+[2022-11-10 02:55:29.789] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 02:55:29.792] [local execution engine] [info] started driver (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 02:55:30.132] [python] [info] transferring 1 elements to tuplex
+[2022-11-10 02:55:30.133] [python] [info] inferring type!
+[2022-11-10 02:55:30.134] [python] [info] using slow transfer to backend
+[2022-11-10 02:55:30.151] [serializer] [error] invalid list type: [pyobject] encountered, can't serialize.
+[2022-11-10 02:55:30.151] [serializer] [error] invalid list type: [pyobject] encountered, can't serialize.
+[2022-11-10 02:55:30.158] [serializer] [error] invalid list type: [pyobject] encountered, can't serialize.
+[2022-11-10 02:55:30.158] [serializer] [error] invalid list type: [pyobject] encountered, can't serialize.
+[2022-11-10 02:55:30.158] [serializer] [error] invalid list type: [pyobject] encountered, can't serialize.
+[2022-11-10 02:55:30.158] [serializer] [error] invalid list type: [pyobject] encountered, can't serialize.
+[2022-11-10 02:55:30.160] [deserializer] [error] invalid list type: [pyobject] encountered, can't deserialize.
+[2022-11-10 02:55:30.161] [deserializer] [error] invalid list type: [pyobject] encountered, can't deserialize.
+[2022-11-10 02:55:30.162] [python] [info] inferred default type is ([pyobject],[pyobject],i64,i64)
+[2022-11-10 02:55:30.162] [python] [info] Data transfer to backend took 0.030350 seconds (materialized: 32.00 MB)
+[2022-11-10 02:55:32.215] [global] [warning] function requires module numpy as np for which Tuplex does not provide support yet. Will use fallback mode.
+[2022-11-10 02:55:32.216] [global] [warning] Module __main__ native support required to compile function. Tuplex does not support it yet, using fallback.
+[2022-11-10 02:55:32.216] [global] [warning] Module __main__ native support required to compile function. Tuplex does not support it yet, using fallback.
+[2022-11-10 02:55:32.236] [global] [warning] function requires module numpy as np for which Tuplex does not provide support yet. Will use fallback mode.
+[2022-11-10 02:55:32.237] [global] [warning] Module __main__ native support required to compile function. Tuplex does not support it yet, using fallback.
+[2022-11-10 02:55:32.237] [global] [warning] Module __main__ native support required to compile function. Tuplex does not support it yet, using fallback.
+[2022-11-10 02:58:10.633] [local ee] [info] loaded runtime library from/opt/conda/lib/python3.8/site-packages/tuplex/libexec/tuplex_runtime.cpython-38-x86_64-linux-gnu.so
+[2022-11-10 02:58:10.637] [local ee] [info] initializing LLVM backend
+[2022-11-10 02:58:10.637] [local ee] [warning] init JIT compiler also only in local mode
+[2022-11-10 02:58:10.658] [LLVM] [info] compiling code for k8-sse3
+[2022-11-10 02:58:10.686] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 02:58:10.693] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 02:58:10.699] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 02:58:10.705] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 02:58:10.706] [E/1] [info] starting detached process queue
+[2022-11-10 02:58:10.707] [local execution engine] [info] started local executor E/1 (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 02:58:10.707] [local execution engine] [info] started local executor E/2 (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 02:58:10.708] [E/2] [info] starting detached process queue
+[2022-11-10 02:58:10.709] [E/1] [info] initialized runtime memory (4.00 MB)
+[2022-11-10 02:58:10.709] [E/2] [info] initialized runtime memory (4.00 MB)
+[2022-11-10 02:58:10.709] [local execution engine] [info] started local executor E/3 (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 02:58:10.710] [E/3] [info] starting detached process queue
+[2022-11-10 02:58:10.714] [E/3] [info] initialized runtime memory (4.00 MB)
+[2022-11-10 02:58:10.722] [local execution engine] [info] started local executor E/4 (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 02:58:10.730] [E/4] [info] starting detached process queue
+[2022-11-10 02:58:10.731] [E/4] [info] initialized runtime memory (4.00 MB)
+[2022-11-10 02:58:10.731] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 02:58:10.742] [local execution engine] [info] started driver (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 02:58:10.745] [python] [info] transferring 5 elements to tuplex
+[2022-11-10 02:58:10.746] [python] [info] inferring type!
+[2022-11-10 02:58:10.761] [python] [info] inferred default type is (i64,i64)
+[2022-11-10 02:58:10.761] [python] [info] Data transfer to backend took 0.016285 seconds (materialized: 32.00 MB)
+[2022-11-10 02:58:11.082] [logical planner] [info] logical optimization took 0.012310ms
+[2022-11-10 02:58:11.089] [codegen] [info] generating pipeline for (i64,i64) -> (i64,i64) (1 operator pipelined)
+[2022-11-10 02:58:11.102] [codegen] [info] generating function cl for ((i64,i64)) -> (i64,i64)
+[2022-11-10 02:58:11.596] [global] [info] Optimization via LLVM passes took 0.414974 ms
+[2022-11-10 02:58:11.596] [global] [info] starting code compilation
+[2022-11-10 02:58:11.600] [global] [info] first compile done
+[2022-11-10 02:58:11.940] [global] [info] functor Stage_0 retrieved from llvm
+[2022-11-10 02:58:11.950] [global] [info] retrieving init/release stage functors
+[2022-11-10 02:58:11.951] [global] [info] Compiled code paths for stage 0 in 0.35 ms
+[2022-11-10 02:58:11.952] [global] [info] [Transform Stage] Stage 0 compiled to x86 in 0.802343s
+[2022-11-10 02:58:11.975] [E/3] [info] [Task Finished] Transform to mem in 0.000566s (5 normal rows, 0 exceptions)
+[2022-11-10 02:58:11.976] [global] [info] [Transform Stage] Stage 0 completed 1 load&transform tasks in 0.0139205s
+[2022-11-10 02:58:11.976] [global] [info] [Transform Stage] Stage 0 total wall clock time: 0.000566042s, 5 input rows, time to process 1 row via fast path: 0.113208ms
+[2022-11-10 02:58:11.978] [global] [info] [Transform Stage] Stage 0 completed 1 sink tasks in 0.000810042s
+[2022-11-10 02:58:11.978] [global] [info] [Transform Stage] Stage 0 took 0.828971s
+[2022-11-10 02:58:11.979] [global] [info] Query Execution took 0.914585s. (planning: 0.0847202s, execution: 0.829864s)
+[2022-11-10 02:58:11.991] [python] [info] Data transfer back to Python took 0.000823 seconds
+[2022-11-10 02:58:12.013] [driver] [info] freed 1 partition (32.00 MB)
+[2022-11-10 02:58:12.014] [local execution engine] [info] Stopped local executor E/1
+[2022-11-10 02:58:12.017] [local execution engine] [info] Stopped local executor E/2
+[2022-11-10 02:58:12.019] [local execution engine] [info] Stopped local executor E/3
+[2022-11-10 02:58:12.022] [local execution engine] [info] Stopped local executor E/4
+[2022-11-10 02:59:08.308] [local ee] [info] loaded runtime library from/opt/conda/lib/python3.8/site-packages/tuplex/libexec/tuplex_runtime.cpython-38-x86_64-linux-gnu.so
+[2022-11-10 02:59:08.312] [local ee] [info] initializing LLVM backend
+[2022-11-10 02:59:08.312] [local ee] [warning] init JIT compiler also only in local mode
+[2022-11-10 02:59:08.334] [LLVM] [info] compiling code for k8-sse3
+[2022-11-10 02:59:08.364] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 02:59:08.371] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 02:59:08.377] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 02:59:08.383] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 02:59:08.385] [E/1] [info] starting detached process queue
+[2022-11-10 02:59:08.385] [local execution engine] [info] started local executor E/1 (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 02:59:08.385] [E/1] [info] initialized runtime memory (4.00 MB)
+[2022-11-10 02:59:08.386] [local execution engine] [info] started local executor E/2 (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 02:59:08.387] [local execution engine] [info] started local executor E/3 (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 02:59:08.389] [E/3] [info] starting detached process queue
+[2022-11-10 02:59:08.387] [E/2] [info] starting detached process queue
+[2022-11-10 02:59:08.390] [E/3] [info] initialized runtime memory (4.00 MB)
+[2022-11-10 02:59:08.391] [E/4] [info] starting detached process queue
+[2022-11-10 02:59:08.390] [local execution engine] [info] started local executor E/4 (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 02:59:08.390] [E/2] [info] initialized runtime memory (4.00 MB)
+[2022-11-10 02:59:08.399] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 02:59:08.400] [local execution engine] [info] started driver (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 02:59:08.391] [E/4] [info] initialized runtime memory (4.00 MB)
+[2022-11-10 02:59:08.403] [python] [info] transferring 5 elements to tuplex
+[2022-11-10 02:59:08.406] [python] [info] inferring type!
+[2022-11-10 02:59:08.413] [python] [info] inferred default type is (i64,i64)
+[2022-11-10 02:59:08.413] [python] [info] Data transfer to backend took 0.009960 seconds (materialized: 32.00 MB)
+[2022-11-10 02:59:08.893] [logical planner] [info] logical optimization took 0.021368ms
+[2022-11-10 02:59:08.900] [codegen] [info] generating pipeline for (i64,i64) -> (i64,i64) (1 operator pipelined)
+[2022-11-10 02:59:08.933] [codegen] [info] generating function cl for ((i64,i64)) -> (i64,i64)
+[2022-11-10 02:59:09.413] [global] [info] Optimization via LLVM passes took 0.380277 ms
+[2022-11-10 02:59:09.423] [global] [info] starting code compilation
+[2022-11-10 02:59:09.427] [global] [info] first compile done
+[2022-11-10 02:59:10.013] [global] [info] functor Stage_0 retrieved from llvm
+[2022-11-10 02:59:10.023] [global] [info] retrieving init/release stage functors
+[2022-11-10 02:59:10.024] [global] [info] Compiled code paths for stage 0 in 0.61 ms
+[2022-11-10 02:59:10.025] [global] [info] [Transform Stage] Stage 0 compiled to x86 in 1.01205s
+[2022-11-10 02:59:10.028] [E/1] [info] [Task Finished] Transform to mem in 0.000959s (5 normal rows, 0 exceptions)
+[2022-11-10 02:59:10.037] [global] [info] [Transform Stage] Stage 0 completed 1 load&transform tasks in 0.0112986s
+[2022-11-10 02:59:10.037] [global] [info] [Transform Stage] Stage 0 total wall clock time: 0.000958834s, 5 input rows, time to process 1 row via fast path: 0.191767ms
+[2022-11-10 02:59:10.038] [global] [info] [Transform Stage] Stage 0 completed 1 sink tasks in 0.000795167s
+[2022-11-10 02:59:10.039] [global] [info] [Transform Stage] Stage 0 took 1.02604s
+[2022-11-10 02:59:10.040] [global] [info] Query Execution took 1.18254s. (planning: 0.15565s, execution: 1.02689s)
+[2022-11-10 02:59:10.064] [python] [info] Data transfer back to Python took 0.010657 seconds
+[2022-11-10 02:59:10.105] [driver] [info] freed 1 partition (32.00 MB)
+[2022-11-10 02:59:10.107] [local execution engine] [info] Stopped local executor E/1
+[2022-11-10 02:59:10.111] [local execution engine] [info] Stopped local executor E/2
+[2022-11-10 02:59:10.113] [local execution engine] [info] Stopped local executor E/3
+[2022-11-10 02:59:10.115] [local execution engine] [info] Stopped local executor E/4
+[2022-11-10 03:06:45.899] [local ee] [info] loaded runtime library from/opt/conda/lib/python3.8/site-packages/tuplex/libexec/tuplex_runtime.cpython-38-x86_64-linux-gnu.so
+[2022-11-10 03:06:45.903] [local ee] [info] initializing LLVM backend
+[2022-11-10 03:06:45.904] [local ee] [warning] init JIT compiler also only in local mode
+[2022-11-10 03:06:45.919] [LLVM] [info] compiling code for k8-sse3
+[2022-11-10 03:06:45.951] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 03:06:45.967] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 03:06:45.981] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 03:06:45.988] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 03:06:45.989] [E/1] [info] starting detached process queue
+[2022-11-10 03:06:45.990] [E/1] [info] initialized runtime memory (4.00 MB)
+[2022-11-10 03:06:45.990] [local execution engine] [info] started local executor E/1 (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 03:06:45.994] [E/2] [info] starting detached process queue
+[2022-11-10 03:06:45.991] [local execution engine] [info] started local executor E/2 (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 03:06:45.994] [local execution engine] [info] started local executor E/3 (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 03:06:45.996] [E/3] [info] starting detached process queue
+[2022-11-10 03:06:45.996] [E/3] [info] initialized runtime memory (4.00 MB)
+[2022-11-10 03:06:45.995] [E/2] [info] initialized runtime memory (4.00 MB)
+[2022-11-10 03:06:45.997] [local execution engine] [info] started local executor E/4 (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 03:06:46.006] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 03:06:46.007] [local execution engine] [info] started driver (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 03:06:45.998] [E/4] [info] starting detached process queue
+[2022-11-10 03:06:46.009] [E/4] [info] initialized runtime memory (4.00 MB)
+[2022-11-10 03:06:46.195] [python] [info] transferring 1 elements to tuplex
+[2022-11-10 03:06:46.196] [python] [info] inferring type!
+[2022-11-10 03:06:46.198] [python] [info] using slow transfer to backend
+[2022-11-10 03:06:46.218] [serializer] [error] invalid list type: [pyobject] encountered, can't serialize.
+[2022-11-10 03:06:46.219] [serializer] [error] invalid list type: [pyobject] encountered, can't serialize.
+[2022-11-10 03:06:46.231] [serializer] [error] invalid list type: [pyobject] encountered, can't serialize.
+[2022-11-10 03:06:46.231] [serializer] [error] invalid list type: [pyobject] encountered, can't serialize.
+[2022-11-10 03:06:46.232] [serializer] [error] invalid list type: [pyobject] encountered, can't serialize.
+[2022-11-10 03:06:46.233] [serializer] [error] invalid list type: [pyobject] encountered, can't serialize.
+[2022-11-10 03:06:46.237] [deserializer] [error] invalid list type: [pyobject] encountered, can't deserialize.
+[2022-11-10 03:06:46.237] [deserializer] [error] invalid list type: [pyobject] encountered, can't deserialize.
+[2022-11-10 03:06:46.240] [python] [info] inferred default type is ([pyobject],[pyobject],i64,i64)
+[2022-11-10 03:06:46.240] [python] [info] Data transfer to backend took 0.045503 seconds (materialized: 32.00 MB)
+[2022-11-10 03:06:48.235] [global] [warning] function requires module numpy as np for which Tuplex does not provide support yet. Will use fallback mode.
+[2022-11-10 03:06:48.235] [global] [warning] Module __main__ native support required to compile function. Tuplex does not support it yet, using fallback.
+[2022-11-10 03:06:48.236] [global] [warning] Module __main__ native support required to compile function. Tuplex does not support it yet, using fallback.
+[2022-11-10 03:06:48.247] [global] [warning] function requires module numpy as np for which Tuplex does not provide support yet. Will use fallback mode.
+[2022-11-10 03:06:48.248] [global] [warning] Module __main__ native support required to compile function. Tuplex does not support it yet, using fallback.
+[2022-11-10 03:06:48.248] [global] [warning] Module __main__ native support required to compile function. Tuplex does not support it yet, using fallback.
+[2022-11-10 03:06:48.256] [global] [warning] function requires module numpy as np for which Tuplex does not provide support yet. Will use fallback mode.
+[2022-11-10 03:06:48.265] [global] [warning] Module __main__ native support required to compile function. Tuplex does not support it yet, using fallback.
+[2022-11-10 03:06:48.266] [global] [warning] Module __main__ native support required to compile function. Tuplex does not support it yet, using fallback.
+[2022-11-10 03:06:48.267] [global] [error] Tracing via sample produced mostly exceptions, please increase sample size or alter UDF to not yield exceptions only.
+[2022-11-10 03:06:48.269] [global] [error] Could not infer schema for map operator.
+[2022-11-10 03:06:48.269] [global] [error] failed to create map operator
+[2022-11-10 03:06:48.332] [driver] [info] freed 1 partition (32.00 MB)
+[2022-11-10 03:06:48.333] [local execution engine] [info] Stopped local executor E/1
+[2022-11-10 03:06:48.336] [local execution engine] [info] Stopped local executor E/2
+[2022-11-10 03:06:48.339] [local execution engine] [info] Stopped local executor E/3
+[2022-11-10 03:06:48.341] [local execution engine] [info] Stopped local executor E/4
+[2022-11-10 03:07:04.088] [local ee] [info] loaded runtime library from/opt/conda/lib/python3.8/site-packages/tuplex/libexec/tuplex_runtime.cpython-38-x86_64-linux-gnu.so
+[2022-11-10 03:07:04.092] [local ee] [info] initializing LLVM backend
+[2022-11-10 03:07:04.092] [local ee] [warning] init JIT compiler also only in local mode
+[2022-11-10 03:07:04.106] [LLVM] [info] compiling code for k8-sse3
+[2022-11-10 03:07:04.136] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 03:07:04.143] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 03:07:04.149] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 03:07:04.154] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 03:07:04.156] [E/1] [info] starting detached process queue
+[2022-11-10 03:07:04.156] [local execution engine] [info] started local executor E/1 (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 03:07:04.156] [E/1] [info] initialized runtime memory (4.00 MB)
+[2022-11-10 03:07:04.156] [local execution engine] [info] started local executor E/2 (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 03:07:04.160] [E/3] [info] starting detached process queue
+[2022-11-10 03:07:04.157] [local execution engine] [info] started local executor E/3 (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 03:07:04.160] [E/3] [info] initialized runtime memory (4.00 MB)
+[2022-11-10 03:07:04.159] [E/2] [info] starting detached process queue
+[2022-11-10 03:07:04.161] [local execution engine] [info] started local executor E/4 (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 03:07:04.162] [E/2] [info] initialized runtime memory (4.00 MB)
+[2022-11-10 03:07:04.169] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 03:07:04.169] [local execution engine] [info] started driver (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 03:07:04.162] [E/4] [info] starting detached process queue
+[2022-11-10 03:07:04.171] [E/4] [info] initialized runtime memory (4.00 MB)
+[2022-11-10 03:07:04.370] [python] [info] transferring 1 elements to tuplex
+[2022-11-10 03:07:04.372] [python] [info] inferring type!
+[2022-11-10 03:07:04.373] [python] [info] using slow transfer to backend
+[2022-11-10 03:07:04.426] [serializer] [error] invalid list type: [pyobject] encountered, can't serialize.
+[2022-11-10 03:07:04.426] [serializer] [error] invalid list type: [pyobject] encountered, can't serialize.
+[2022-11-10 03:07:04.459] [serializer] [error] invalid list type: [pyobject] encountered, can't serialize.
+[2022-11-10 03:07:04.459] [serializer] [error] invalid list type: [pyobject] encountered, can't serialize.
+[2022-11-10 03:07:04.460] [serializer] [error] invalid list type: [pyobject] encountered, can't serialize.
+[2022-11-10 03:07:04.460] [serializer] [error] invalid list type: [pyobject] encountered, can't serialize.
+[2022-11-10 03:07:04.463] [deserializer] [error] invalid list type: [pyobject] encountered, can't deserialize.
+[2022-11-10 03:07:04.463] [deserializer] [error] invalid list type: [pyobject] encountered, can't deserialize.
+[2022-11-10 03:07:04.465] [python] [info] inferred default type is ([pyobject],[pyobject],i64,i64)
+[2022-11-10 03:07:04.465] [python] [info] Data transfer to backend took 0.094628 seconds (materialized: 32.00 MB)
+[2022-11-10 03:07:06.436] [global] [warning] function requires module numpy as np for which Tuplex does not provide support yet. Will use fallback mode.
+[2022-11-10 03:07:06.438] [global] [warning] Module __main__ native support required to compile function. Tuplex does not support it yet, using fallback.
+[2022-11-10 03:07:06.448] [global] [warning] Module __main__ native support required to compile function. Tuplex does not support it yet, using fallback.
+[2022-11-10 03:07:06.458] [global] [warning] function requires module numpy as np for which Tuplex does not provide support yet. Will use fallback mode.
+[2022-11-10 03:07:06.468] [global] [warning] Module __main__ native support required to compile function. Tuplex does not support it yet, using fallback.
+[2022-11-10 03:07:06.468] [global] [warning] Module __main__ native support required to compile function. Tuplex does not support it yet, using fallback.
+[2022-11-10 03:07:06.476] [global] [warning] function requires module numpy as np for which Tuplex does not provide support yet. Will use fallback mode.
+[2022-11-10 03:07:06.492] [global] [warning] Module __main__ native support required to compile function. Tuplex does not support it yet, using fallback.
+[2022-11-10 03:07:06.492] [global] [warning] Module __main__ native support required to compile function. Tuplex does not support it yet, using fallback.
+[2022-11-10 03:07:06.493] [global] [error] Tracing via sample produced mostly exceptions, please increase sample size or alter UDF to not yield exceptions only.
+[2022-11-10 03:07:06.496] [global] [error] Could not infer schema for map operator.
+[2022-11-10 03:07:06.496] [global] [error] failed to create map operator
+[2022-11-10 03:07:06.560] [driver] [info] freed 1 partition (32.00 MB)
+[2022-11-10 03:07:06.562] [local execution engine] [info] Stopped local executor E/1
+[2022-11-10 03:07:06.565] [local execution engine] [info] Stopped local executor E/2
+[2022-11-10 03:07:06.569] [local execution engine] [info] Stopped local executor E/3
+[2022-11-10 03:07:06.572] [local execution engine] [info] Stopped local executor E/4
+[2022-11-10 03:11:06.088] [local ee] [info] loaded runtime library from/opt/conda/lib/python3.8/site-packages/tuplex/libexec/tuplex_runtime.cpython-38-x86_64-linux-gnu.so
+[2022-11-10 03:11:06.092] [local ee] [info] initializing LLVM backend
+[2022-11-10 03:11:06.093] [local ee] [warning] init JIT compiler also only in local mode
+[2022-11-10 03:11:06.116] [LLVM] [info] compiling code for k8-sse3
+[2022-11-10 03:11:06.143] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 03:11:06.150] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 03:11:06.162] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 03:11:06.176] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 03:11:06.178] [E/1] [info] starting detached process queue
+[2022-11-10 03:11:06.179] [local execution engine] [info] started local executor E/1 (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 03:11:06.179] [E/1] [info] initialized runtime memory (4.00 MB)
+[2022-11-10 03:11:06.180] [local execution engine] [info] started local executor E/2 (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 03:11:06.181] [E/2] [info] starting detached process queue
+[2022-11-10 03:11:06.183] [E/2] [info] initialized runtime memory (4.00 MB)
+[2022-11-10 03:11:06.183] [local execution engine] [info] started local executor E/3 (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 03:11:06.184] [E/3] [info] starting detached process queue
+[2022-11-10 03:11:06.189] [E/3] [info] initialized runtime memory (4.00 MB)
+[2022-11-10 03:11:06.189] [local execution engine] [info] started local executor E/4 (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 03:11:06.194] [E/4] [info] starting detached process queue
+[2022-11-10 03:11:06.197] [E/4] [info] initialized runtime memory (4.00 MB)
+[2022-11-10 03:11:06.209] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 03:11:06.210] [local execution engine] [info] started driver (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 03:11:06.222] [python] [info] transferring 5 elements to tuplex
+[2022-11-10 03:11:06.223] [python] [info] inferring type!
+[2022-11-10 03:11:06.229] [python] [info] inferred default type is (i64,i64)
+[2022-11-10 03:11:06.229] [python] [info] Data transfer to backend took 0.007647 seconds (materialized: 32.00 MB)
+[2022-11-10 03:11:43.725] [local ee] [info] loaded runtime library from/opt/conda/lib/python3.8/site-packages/tuplex/libexec/tuplex_runtime.cpython-38-x86_64-linux-gnu.so
+[2022-11-10 03:11:43.729] [local ee] [info] initializing LLVM backend
+[2022-11-10 03:11:43.729] [local ee] [warning] init JIT compiler also only in local mode
+[2022-11-10 03:11:43.748] [LLVM] [info] compiling code for k8-sse3
+[2022-11-10 03:11:43.775] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 03:11:43.782] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 03:11:43.788] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 03:11:43.793] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 03:11:43.795] [E/1] [info] starting detached process queue
+[2022-11-10 03:11:43.795] [local execution engine] [info] started local executor E/1 (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 03:11:43.796] [E/1] [info] initialized runtime memory (4.00 MB)
+[2022-11-10 03:11:43.796] [local execution engine] [info] started local executor E/2 (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 03:11:43.800] [E/3] [info] starting detached process queue
+[2022-11-10 03:11:43.798] [E/2] [info] starting detached process queue
+[2022-11-10 03:11:43.798] [local execution engine] [info] started local executor E/3 (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 03:11:43.800] [E/2] [info] initialized runtime memory (4.00 MB)
+[2022-11-10 03:11:43.800] [E/3] [info] initialized runtime memory (4.00 MB)
+[2022-11-10 03:11:43.801] [local execution engine] [info] started local executor E/4 (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 03:11:43.802] [E/4] [info] starting detached process queue
+[2022-11-10 03:11:43.808] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 03:11:43.808] [E/4] [info] initialized runtime memory (4.00 MB)
+[2022-11-10 03:11:43.808] [local execution engine] [info] started driver (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 03:11:43.812] [python] [info] transferring 5 elements to tuplex
+[2022-11-10 03:11:43.814] [python] [info] inferring type!
+[2022-11-10 03:11:43.821] [python] [info] inferred default type is (i64,i64)
+[2022-11-10 03:11:43.821] [python] [info] Data transfer to backend took 0.008823 seconds (materialized: 32.00 MB)
+[2022-11-10 04:04:54.107] [local ee] [info] loaded runtime library from/opt/conda/lib/python3.8/site-packages/tuplex/libexec/tuplex_runtime.cpython-38-x86_64-linux-gnu.so
+[2022-11-10 04:04:54.112] [local ee] [info] initializing LLVM backend
+[2022-11-10 04:04:54.112] [local ee] [warning] init JIT compiler also only in local mode
+[2022-11-10 04:04:54.133] [LLVM] [info] compiling code for k8-sse3
+[2022-11-10 04:04:54.162] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 04:04:54.175] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 04:04:54.185] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 04:04:54.191] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 04:04:54.193] [E/1] [info] starting detached process queue
+[2022-11-10 04:04:54.193] [local execution engine] [info] started local executor E/1 (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 04:04:54.194] [E/1] [info] initialized runtime memory (4.00 MB)
+[2022-11-10 04:04:54.195] [local execution engine] [info] started local executor E/2 (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 04:04:54.196] [E/2] [info] starting detached process queue
+[2022-11-10 04:04:54.198] [E/2] [info] initialized runtime memory (4.00 MB)
+[2022-11-10 04:04:54.200] [E/3] [info] starting detached process queue
+[2022-11-10 04:04:54.200] [local execution engine] [info] started local executor E/3 (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 04:04:54.200] [E/3] [info] initialized runtime memory (4.00 MB)
+[2022-11-10 04:04:54.212] [local execution engine] [info] started local executor E/4 (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 04:04:54.213] [E/4] [info] starting detached process queue
+[2022-11-10 04:04:54.214] [E/4] [info] initialized runtime memory (4.00 MB)
+[2022-11-10 04:04:54.221] [memory] [info] allocated bitmap managed memory region (1.00 GB, 32.00 MB block size)
+[2022-11-10 04:04:54.222] [local execution engine] [info] started driver (1.00 GB, 32.00 MB default partition size)
+[2022-11-10 04:04:54.233] [python] [info] transferring 5 elements to tuplex
+[2022-11-10 04:04:54.234] [python] [info] inferring type!
+[2022-11-10 04:04:54.246] [python] [info] inferred default type is (i64,i64)
+[2022-11-10 04:04:54.246] [python] [info] Data transfer to backend took 0.013747 seconds (materialized: 32.00 MB)
