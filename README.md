@@ -11,3 +11,10 @@ Parameters:
   iz: init_zombie
   K: simulate_time
   ii: init_infection_rate
+
+## Result:
+  This simulation program will simulate zombie vs human until satisfy two condition.
+  1. survival human population or zombie num has arrival dynamic balance more than 3 days.
+  2. simulation processing running more than 1000 days.
+  
+  Processing will return final human population, zombie nums and end days. 
