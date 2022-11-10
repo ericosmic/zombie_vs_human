@@ -15,7 +15,7 @@ Parameters:
 ## Result:
   This simulation program will simulate zombie vs human until satisfy two condition.
   1. survival human population or zombie num has arrival dynamic balance more than 3 days.
-  2. simulation running more than 1000 days.
+  2. simulation running more than 1000 days in program epoch.
   
   Processing will return final human population, zombie nums and end days. 
   Meanwhile program will product two csv file for recording data:
