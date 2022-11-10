@@ -1,2 +1,2 @@
 # zombie_vs_human
-SImulate A battle between zombie and human
+Simulate A battle between zombie and human
