@@ -20,7 +20,7 @@ If you want to change math function of virus gen-mutation, you can change mutati
   2. human or zombie has been eliminated.
   3. simulation running more than 1000 days in program epoch.
   
-  Processing will return final human population, zombie nums and end days. 
+  Processing will return final human population, zombie nums and stopping days. 
   Meanwhile program will product two csv file for recording data:
   1. experiment_data.csv:  record final data (include days, human population, zombie nums)
   2. processing_data.csv:  record processing data of each 10 days.
