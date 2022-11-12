@@ -10,7 +10,7 @@ hyper-parameters:
   
   ih: init_health  
   iz: init_zombie  
-  K: simulate_time  
+  K: simulate_iterate  
   ii: init_infection_rate
 
 ## Result:
