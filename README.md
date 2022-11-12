@@ -13,6 +13,7 @@ hyper-parameters:
   K: simulate_iterate  
   ii: init_infection_rate
 
+If you want to change math function of virus gen-mutation, you can change mutation function of zombie class in your opinion.
 ## Result:
   This simulation program will simulate zombie vs human until satisfy one of three conditions below.
   1. survival human population or zombie num has arrival dynamic balance more than 10 days.
@@ -23,3 +24,4 @@ hyper-parameters:
   Meanwhile program will product two csv file for recording data:
   1. experiment_data.csv:  record final data (include days, human population, zombie nums)
   2. processing_data.csv:  record processing data of each 10 days.
+
