@@ -1,4 +1,4 @@
-# zombie_vs_human
+# Zombie_vs_Human
 Simulate A battle between Zombie and Human
 
 # RUN Simulation:
