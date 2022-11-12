@@ -1,7 +1,7 @@
 # Zombie_vs_Human
 Simulate A battle between Zombie and Human
 
-# RUN Simulation:
+# Start Simulation:
 ## Command:
 ```shell
 python virus-pro.py -ih <human-init-population> -iz <zombie-init-nums> -K <simulate-time> -ii <init_infection_rate>
