@@ -23,5 +23,8 @@ If you want to change math function of virus gen-mutation, you can change mutati
   Processing will return final human population, zombie nums and stopping days. 
   Meanwhile program will product two csv file for recording data:
   1. experiment_data.csv:  record final data (include days, human population, zombie nums)
+  <img width="236" alt="image" src="https://user-images.githubusercontent.com/35327931/201452198-6a0a9272-9320-4c0a-8b17-f915a0737d0a.png">
   2. processing_data.csv:  record processing data of each 10 days.
+  <img width="232" alt="image" src="https://user-images.githubusercontent.com/35327931/201452267-92a4deb4-c285-45c3-adb4-02c3bccbaab1.png">
 
+  
