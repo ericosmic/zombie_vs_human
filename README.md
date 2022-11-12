@@ -8,10 +8,10 @@ python virus-pro.py -ih <human-init-population> -iz <zombie-init-nums> -K <simul
 ```
 hyper-parameters:
   
-  ih: init_health 
-  iz: init_zombie  
-  K: simulate_iterate , default=1. 
-  ii: init_infection_rate, default=0.99
+  ih: init_health  
+  iz: init_zombie    
+  K: simulate_iterate , default=1  
+  ii: init_infection_rate, default=0.99. 
 
 If you want to change math function of virus gen-mutation, you can change mutation function of zombie class in your opinion.
 ## Result:
