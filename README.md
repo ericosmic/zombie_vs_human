@@ -1,5 +1,5 @@
 # zombie_vs_human
-Simulate A battle between zombie and human
+Simulate A battle between Zombie and Human
 
 # RUN Simulation:
 ## Command:
