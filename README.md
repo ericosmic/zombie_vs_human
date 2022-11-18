@@ -3,7 +3,8 @@ When you watch a zombie movies, have you ever doubt about whether zombie will di
 Of course, I have clear some base set in my simulation,   
 1 there no any zombie-virus-cure be developed ever.   
 2 zombie will died if they dont eat human for a long time(this number can be set for youself).  
-3 human survival probability is decided by their physical condition and learning-ability and some lucky. For example, Higher learning-ability will have higher survival probability in the next time after survival from one time zombie-attack. Other example, even you are smart and strong, but you still will be kill and transfer since your bad lucky.
+3 human survival probability is decided by their physical condition and learning-ability and some lucky. For example, Higher learning-ability will have higher survival probability in the next time after survival from one time zombie-attack. Other example, even you are smart and strong, but you still will be kill and transfer since your bad lucky.  
+4 huamn and zombie will be seperated by several groups in every day. You can consider this set as different population density in differnet area.  
 
 
 # Start Simulation:
