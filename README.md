@@ -1,5 +1,5 @@
 # Zombie_vs_Human
-When you watch a zombie movie, have you ever doubt about whether zombie will totally die due to starve, espcially survival human population decline with time. This curious derive this project, I consider as many factors as I can in a zombie apocalypse. So you can change parameter like: zombie-init-num,  health-human-init-population,  zombie-virus-infection-rate,  zombie-virus-gen-mutation-rate etc for different scence.  
+When you watch a zombie movie, have you ever doubt about whether zombie will totally die due to starve, espcially survival human population decline with time. This curious derive this project, I consider as many factors as I can in a zombie apocalypse. So you have great freedom to control this simulation, and can change parameter like: zombie-init-num,  health-human-init-population,  zombie-virus-infection-rate,  zombie-virus-gen-mutation-rate etc for different scence.  
 Of course, I have to clear some basic sets in my simulation,   
 1 there no any zombie-virus-cure be developed ever.   
 2 zombie will died if they dont eat human for a long time(this number can be set for youself).  
