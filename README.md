@@ -1,6 +1,6 @@
 # Zombie_vs_Human
 When you watch a zombie movies, have you ever doubt about whether zombie will die due to starve, espcially survival human population decline with time. This curious derive this project, I consider as many factors as I can in a zombie apocalypse. So you can change parameter like: zombie-init-num,  health-human-init-population,  zombie-virus-infection-rate,  zombie-virus-gen-mutation-rate etc for different scence.  So finally,  we can get a different result with classic zombie movie, for most situations, zombie will be cleared and samll group human survival , whcih most zombie actually die for hungry. 
-Of course, I have clear some base set in my simulation, 
+Of course, I have clear some base set in my simulation,   
 1 there no any zombie-virus-cure be developed ever.   
 2 zombie will died if they dont eat human for a long time(this number can be set for youself).  
 3 some human have zombie-virus-immunity for born.  
