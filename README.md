@@ -1,6 +1,6 @@
 # Zombie_vs_Human
-When you watch a zombie movie, have you ever doubt about whether zombie will totally die due to starve, espcially survival human population decline with time. This curious derive this project, I consider as many factors as I can in a zombie apocalypse. So you have great freedom to control this simulation, and can change parameter like: zombie-init-num,  health-human-init-population,  zombie-virus-infection-rate,  zombie-virus-gen-mutation-rate etc for different scence.  
-Of course, I have to clear some basic sets in my simulation,   
+When you watching a zombie movie, have you ever doubt about whether zombie will really die due to starve, espcially considering survival human population decline with time. This curious derive this project, I consider as many factors as I can in a zombie apocalypse. So you have great freedom to control this simulation, and can change parameters like: zombie-init-num,  health-human-init-population,  zombie-virus-infection-rate,  zombie-virus-gen-mutation-rate etc for different scence.  
+Of course, I have to set some basic sets in my simulation,   
 1 there no any zombie-virus-cure be developed ever.   
 2 zombie will died if they dont eat human for a long time(this number can be set for youself).  
 3 human survival probability is decided by their physical condition and learning-ability and some lucky. For example, Higher learning-ability will have higher survival probability in the next time after survival from one time zombie-attack. Other example, even you are smart and strong, but you still will be kill and transfer since your bad lucky.  
